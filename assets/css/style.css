@@ -1,46 +1,16 @@
-/* Universal selector */
+/* Universal selector 
+   ------------------ */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* Element and element-based selectors */
+
+/* Element and element-based selectors 
+   ----------------------------------- */
 body {
     background-color: #d9dcd6;
-}
-
-header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-}
-
-header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-
-header h1 .seo {
-    color: #d9dcd6;
-}
-
-nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-nav ul {
-    list-style-type: none;
-}
-
-nav ul li {
-    display: inline-block;
-    margin-left: 25px;
 }
 
 a {
@@ -52,8 +22,77 @@ p {
     font-size: 16px;
 }
 
+/* Header area */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+    /* To format "seo" in "Horiseon" heading */
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+    /* Navigation links in header */
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+    /* Formats nav list as an inline bulletless set of items */
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Main area */
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+main img {
+    max-height: 200px;
+}
+
+main h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+main section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Aside area */
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
 aside div {
-    margin-bottom: 32px;
+    /* margin-bottom: 32px; */
     color: #ffffff;
 }
 
@@ -68,6 +107,7 @@ aside img {
     max-width: 150px;
 }
 
+/* Footer area */
 footer {
     padding: 30px;
     clear: both;
@@ -79,42 +119,12 @@ footer h2 {
     font-size: 20px;
 }
 
-/* Class-based selectors */
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
 
-.content img {
-    max-height: 200px;
-}
+/* Class-based selectors 
+   --------------------- */
 
-.content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.content section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
+/* Float settings for left and right staggering of main area images */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -125,6 +135,7 @@ footer h2 {
     margin-left: 25px;
 }
 
+/* Settings for primary picture area */
 .hero {
     height: 800px;
     width: 100%;
