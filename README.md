@@ -5,4 +5,4 @@ The task for this homework was to refactor the HTML and CSS for the provided mar
 Here's the URL for the published site: [https://mlin901.github.io/Homework_01-HTML-Git-CSS/](https://mlin901.github.io/Homework_01-HTML-Git-CSS/)
 
 Here a picture of the finished page:
-![Picture of finished web page](FinishedHomework.png "Picture of finished web page")
+![Picture of finished web page](Homework1.png "Picture of finished web page")
