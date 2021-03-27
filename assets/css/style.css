@@ -1,4 +1,4 @@
-/* UNIVERSAL SELECTOR */
+/* || UNIVERSAL SELECTOR */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -6,7 +6,7 @@
 }
 
 
-/* ELEMENT AND ELEMENT-BASED SELECTORS */
+/* || ELEMENT AND ELEMENT-BASED SELECTORS */
 body {
     background-color: #d9dcd6;
 }
@@ -118,7 +118,7 @@ footer h2 {
 }
 
 
-/* CLASS-BASED SELECTORS */ 
+/* || CLASS-BASED SELECTORS */ 
 
 /* Float settings for left and right staggering of main area images */
 .float-left {
