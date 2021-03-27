@@ -1,5 +1,4 @@
-/* Universal selector 
-   ------------------ */
+/* UNIVERSAL SELECTOR */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,8 +6,7 @@
 }
 
 
-/* Element and element-based selectors 
-   ----------------------------------- */
+/* ELEMENT AND ELEMENT-BASED SELECTORS */
 body {
     background-color: #d9dcd6;
 }
@@ -121,8 +119,7 @@ footer h2 {
 
 
 
-/* Class-based selectors 
-   --------------------- */
+/* CLASS-BASED SELECTORS */ 
 
 /* Float settings for left and right staggering of main area images */
 .float-left {
